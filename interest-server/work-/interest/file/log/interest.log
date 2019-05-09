@@ -1,0 +1,460 @@
+2019-05-07 12:02:17.933  INFO 20644 --- [main] c.interest.WhSpringBootApplicationTests  : No active profile set, falling back to default profiles: default
+2019-05-07 12:02:17.941 DEBUG 20644 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@33e01298
+2019-05-07 12:02:20.460  INFO 20644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-07 12:02:20.465  INFO 20644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-07 12:02:20.553  INFO 20644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56ms. Found 0 repository interfaces.
+2019-05-07 12:02:21.677  INFO 20644 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3c09169c-0b69-32ad-815b-4f2cb157c267
+2019-05-07 12:02:22.170  INFO 20644 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$784fea1b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-07 12:02:22.471  INFO 20644 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9469ed18] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-07 12:02:24.810  INFO 20644 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'threadPoolTaskExecutor'
+2019-05-07 12:02:26.035  WARN 20644 --- [main] o.s.s.o.p.t.s.JwtAccessTokenConverter    : Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2019-05-07 12:02:27.049 DEBUG 20644 --- [main] .s.o.p.e.FrameworkEndpointHandlerMapping : 8 mappings in 'oauth2EndpointHandlerMapping'
+2019-05-07 12:02:27.192 DEBUG 20644 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 69 mappings in 'requestMappingHandlerMapping'
+2019-05-07 12:02:28.942  INFO 20644 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-05-07 12:02:29.821  INFO 20644 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-07 12:02:30.756 DEBUG 20644 --- [main] s.c.a.w.c.WebSecurityConfigurerAdapter$3 : No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2019-05-07 12:02:31.070 DEBUG 20644 --- [main] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {websecurityConfig=com.interest.security.WebsecurityConfig$$EnhancerBySpringCGLIB$$dd1055f@6a96d639}
+2019-05-07 12:02:31.336 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'fullyAuthenticated', for Ant [pattern='/oauth/token']
+2019-05-07 12:02:31.343 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'denyAll()', for Ant [pattern='/oauth/token_key']
+2019-05-07 12:02:31.344 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'denyAll()', for Ant [pattern='/oauth/check_token']
+2019-05-07 12:02:31.360 DEBUG 20644 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-05-07 12:02:31.361 DEBUG 20644 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-05-07 12:02:31.382  INFO 20644 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ad8d36f, org.springframework.security.web.context.SecurityContextPersistenceFilter@2a2798a2, org.springframework.security.web.header.HeaderWriterFilter@3e2c8ef, org.springframework.security.web.authentication.logout.LogoutFilter@1c788d08, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7ac1b6c0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31f1b268, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ff074a0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@74a5bef0, org.springframework.security.web.session.SessionManagementFilter@60bc308b, org.springframework.security.web.access.ExceptionTranslationFilter@507f47f9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53a09566]
+2019-05-07 12:02:31.416 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/public/**']
+2019-05-07 12:02:31.417 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/authentication/github']
+2019-05-07 12:02:31.418 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/authentication/qq']
+2019-05-07 12:02:31.420 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/register']
+2019-05-07 12:02:31.420 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.jpg']
+2019-05-07 12:02:31.420 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.png']
+2019-05-07 12:02:31.421 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.jpeg']
+2019-05-07 12:02:31.422 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/interest/**']
+2019-05-07 12:02:31.422 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasRole('ROLE_ADMIN')', for Ant [pattern='/users/**']
+2019-05-07 12:02:31.426 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasRole('ROLE_ADMIN')', for Ant [pattern='/menus/**']
+2019-05-07 12:02:31.427 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasRole('ROLE_ADMIN')', for Ant [pattern='/roles/**']
+2019-05-07 12:02:31.427 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasRole('ROLE_ADMIN')', for Ant [pattern='/admin/**']
+2019-05-07 12:02:31.428 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.html']
+2019-05-07 12:02:31.428 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.css']
+2019-05-07 12:02:31.431 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.js']
+2019-05-07 12:02:31.432 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/swagger-resources/**']
+2019-05-07 12:02:31.432 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.woff2']
+2019-05-07 12:02:31.433 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/v2/**']
+2019-05-07 12:02:31.433 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'authenticated', for any request
+2019-05-07 12:02:31.434 DEBUG 20644 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-05-07 12:02:31.435 DEBUG 20644 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-05-07 12:02:31.436  INFO 20644 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@160546b1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@103e7c7c, org.springframework.security.web.context.SecurityContextPersistenceFilter@237aa0c7, org.springframework.security.web.header.HeaderWriterFilter@6ffbf0ac, org.springframework.web.filter.CorsFilter@46a388cc, org.springframework.security.web.authentication.logout.LogoutFilter@fceab5d, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@3d98729a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b8ee69d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b400bd0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c3710b3, org.springframework.security.web.session.SessionManagementFilter@ad5cffa, org.springframework.security.web.access.ExceptionTranslationFilter@727956bb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1e194966]
+2019-05-07 12:02:31.455 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for ExactUrl [processUrl='/login?error']
+2019-05-07 12:02:31.455 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for ExactUrl [processUrl='/login']
+2019-05-07 12:02:31.456 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for ExactUrl [processUrl='/login']
+2019-05-07 12:02:31.456 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for OrRequestMatcher [requestMatchers=[Ant [pattern='/logout', GET], Ant [pattern='/logout', POST], Ant [pattern='/logout', PUT], Ant [pattern='/logout', DELETE]]]
+2019-05-07 12:02:31.456 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for ExactUrl [processUrl='/login?logout']
+2019-05-07 12:02:31.457 DEBUG 20644 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'authenticated', for any request
+2019-05-07 12:02:31.458 DEBUG 20644 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-05-07 12:02:31.458 DEBUG 20644 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-05-07 12:02:31.475  INFO 20644 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b25709e, org.springframework.security.web.context.SecurityContextPersistenceFilter@12e2f5ab, org.springframework.security.web.header.HeaderWriterFilter@270b8c2a, org.springframework.security.web.authentication.logout.LogoutFilter@2aa07d80, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@f2becb2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2fea9a7b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5ec6a1b6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e61a863, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35f01759, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40013051, org.springframework.security.web.session.SessionManagementFilter@7b9c2387, org.springframework.security.web.access.ExceptionTranslationFilter@25df2014, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3bdbf8d3]
+2019-05-07 12:02:32.153 DEBUG 20644 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-05-07 12:02:32.798 DEBUG 20644 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2019-05-07 12:02:33.400 DEBUG 20644 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-05-07 12:02:33.441 DEBUG 20644 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-05-07 12:02:34.460  INFO 20644 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-05-07 12:02:35.270  INFO 20644 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-05-07 12:02:35.346  INFO 20644 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-05-07 12:02:35.446  INFO 20644 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-05-07 12:02:35.777  INFO 20644 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getArticleUsingGET_1
+2019-05-07 12:02:35.903  INFO 20644 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadPictureUsingPOST_1
+2019-05-07 12:02:36.085  INFO 20644 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertEntityUsingPOST_1
+2019-05-07 12:02:36.169  INFO 20644 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertEntityUsingPOST_2
+2019-05-07 12:02:36.507  INFO 20644 --- [main] c.interest.WhSpringBootApplicationTests  : Started WhSpringBootApplicationTests in 22.121 seconds (JVM running for 24.014)
+2019-05-07 12:02:37.303  INFO 20644 --- [main] com.zaxxer.hikari.HikariDataSource       : DatebookHikariCP - Starting...
+2019-05-07 12:02:38.840 ERROR 20644 --- [main] com.zaxxer.hikari.pool.HikariPool        : DatebookHikariCP - Exception during pool initialization.
+
+java.sql.SQLException: The server time zone value '???ú±ê×??±??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467) [HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541) [HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) [HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) [HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.HikariDataSource$$FastClassBySpringCGLIB$$eeb1ae86.invoke(<generated>) [HikariCP-3.2.0.jar:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746) [spring-aop-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:136) [spring-aop-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:124) [spring-aop-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) [spring-aop-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$5d81c62f.getConnection(<generated>) [HikariCP-3.2.0.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) [spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) [spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) [spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:82) [mybatis-spring-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:68) [mybatis-spring-1.3.2.jar:1.3.2]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:338) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:84) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:326) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141) [mybatis-3.4.6.jar:3.4.6]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_172]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) [mybatis-spring-1.3.2.jar:1.3.2]
+	at com.sun.proxy.$Proxy110.selectList(Unknown Source) [na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230) [mybatis-spring-1.3.2.jar:1.3.2]
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:139) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59) [mybatis-3.4.6.jar:3.4.6]
+	at com.sun.proxy.$Proxy123.getALl(Unknown Source) [na:na]
+	at com.interest.WhSpringBootApplicationTests.testRedis(WhSpringBootApplicationTests.java:62) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_172]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.1.jar:2.22.1]
+Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zone value '???ú±ê×??±??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_172]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_172]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_172]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_172]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.util.TimeUtil.getCanonicalTimezone(TimeUtil.java:132) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2234) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2258) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1319) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:966) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	... 78 common frames omitted
+
+2019-05-07 12:02:40.246  INFO 20644 --- [main] com.zaxxer.hikari.HikariDataSource       : DatebookHikariCP - Starting...
+2019-05-07 12:02:41.253 ERROR 20644 --- [main] com.zaxxer.hikari.pool.HikariPool        : DatebookHikariCP - Exception during pool initialization.
+
+java.sql.SQLException: The server time zone value '???ú±ê×??±??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467) [HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541) [HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) [HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) [HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.HikariDataSource$$FastClassBySpringCGLIB$$eeb1ae86.invoke(<generated>) [HikariCP-3.2.0.jar:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746) [spring-aop-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:136) [spring-aop-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:124) [spring-aop-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) [spring-aop-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$5d81c62f.getConnection(<generated>) [HikariCP-3.2.0.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) [spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) [spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) [spring-jdbc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:82) [mybatis-spring-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:68) [mybatis-spring-1.3.2.jar:1.3.2]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:338) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:84) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:326) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141) [mybatis-3.4.6.jar:3.4.6]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_172]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) [mybatis-spring-1.3.2.jar:1.3.2]
+	at com.sun.proxy.$Proxy110.selectList(Unknown Source) [na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230) [mybatis-spring-1.3.2.jar:1.3.2]
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:139) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59) [mybatis-3.4.6.jar:3.4.6]
+	at com.sun.proxy.$Proxy123.getALl(Unknown Source) [na:na]
+	at com.interest.WhSpringBootApplicationTests.testUserDetail(WhSpringBootApplicationTests.java:39) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_172]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.1.jar:2.22.1]
+Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zone value '???ú±ê×??±??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_172]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_172]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_172]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_172]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.util.TimeUtil.getCanonicalTimezone(TimeUtil.java:132) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2234) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2258) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1319) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:966) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825) ~[mysql-connector-java-8.0.13.jar:8.0.13]
+	... 78 common frames omitted
+
+2019-05-07 12:02:41.299 DEBUG 20644 --- [Thread-7] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@33e01298, started on Tue May 07 12:02:17 CST 2019, parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2eea88a1
+2019-05-07 12:02:41.309  INFO 20644 --- [Thread-7] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-05-07 12:02:41.319  INFO 20644 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'threadPoolTaskExecutor'
+2019-05-07 12:07:10.608  INFO 20524 --- [main] c.interest.WhSpringBootApplicationTests  : No active profile set, falling back to default profiles: default
+2019-05-07 12:07:10.624 DEBUG 20524 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@a5b0b86
+2019-05-07 12:07:14.910  INFO 20524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-07 12:07:14.916  INFO 20524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-07 12:07:15.034  INFO 20524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77ms. Found 0 repository interfaces.
+2019-05-07 12:07:16.371  INFO 20524 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3c09169c-0b69-32ad-815b-4f2cb157c267
+2019-05-07 12:07:17.228  INFO 20524 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$784fea1b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-07 12:07:17.597  INFO 20524 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9469ed18] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-07 12:07:20.020  INFO 20524 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'threadPoolTaskExecutor'
+2019-05-07 12:07:21.890  WARN 20524 --- [main] o.s.s.o.p.t.s.JwtAccessTokenConverter    : Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2019-05-07 12:07:23.325 DEBUG 20524 --- [main] .s.o.p.e.FrameworkEndpointHandlerMapping : 8 mappings in 'oauth2EndpointHandlerMapping'
+2019-05-07 12:07:24.311 DEBUG 20524 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 69 mappings in 'requestMappingHandlerMapping'
+2019-05-07 12:07:28.134  INFO 20524 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-05-07 12:07:29.287  INFO 20524 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-07 12:07:30.321 DEBUG 20524 --- [main] s.c.a.w.c.WebSecurityConfigurerAdapter$3 : No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2019-05-07 12:07:30.636 DEBUG 20524 --- [main] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {websecurityConfig=com.interest.security.WebsecurityConfig$$EnhancerBySpringCGLIB$$dd1055f@3d40498a}
+2019-05-07 12:07:30.981 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'fullyAuthenticated', for Ant [pattern='/oauth/token']
+2019-05-07 12:07:30.983 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'denyAll()', for Ant [pattern='/oauth/token_key']
+2019-05-07 12:07:30.986 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'denyAll()', for Ant [pattern='/oauth/check_token']
+2019-05-07 12:07:31.025 DEBUG 20524 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-05-07 12:07:31.027 DEBUG 20524 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-05-07 12:07:31.056  INFO 20524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74a5bef0, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b9ecd05, org.springframework.security.web.header.HeaderWriterFilter@290807e5, org.springframework.security.web.authentication.logout.LogoutFilter@2adc1e84, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3a751535, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ec7ad61, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@340fc1aa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@68c4a860, org.springframework.security.web.session.SessionManagementFilter@56499781, org.springframework.security.web.access.ExceptionTranslationFilter@6785df10, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1c815814]
+2019-05-07 12:07:31.088 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/public/**']
+2019-05-07 12:07:31.089 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/authentication/github']
+2019-05-07 12:07:31.090 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/authentication/qq']
+2019-05-07 12:07:31.091 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/register']
+2019-05-07 12:07:31.092 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.jpg']
+2019-05-07 12:07:31.092 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.png']
+2019-05-07 12:07:31.093 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.jpeg']
+2019-05-07 12:07:31.093 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/interest/**']
+2019-05-07 12:07:31.093 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasRole('ROLE_ADMIN')', for Ant [pattern='/users/**']
+2019-05-07 12:07:31.097 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasRole('ROLE_ADMIN')', for Ant [pattern='/menus/**']
+2019-05-07 12:07:31.098 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasRole('ROLE_ADMIN')', for Ant [pattern='/roles/**']
+2019-05-07 12:07:31.099 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasRole('ROLE_ADMIN')', for Ant [pattern='/admin/**']
+2019-05-07 12:07:31.099 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.html']
+2019-05-07 12:07:31.100 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.css']
+2019-05-07 12:07:31.100 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.js']
+2019-05-07 12:07:31.100 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/swagger-resources/**']
+2019-05-07 12:07:31.101 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.woff2']
+2019-05-07 12:07:31.102 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/v2/**']
+2019-05-07 12:07:31.102 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'authenticated', for any request
+2019-05-07 12:07:31.103 DEBUG 20524 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-05-07 12:07:31.103 DEBUG 20524 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-05-07 12:07:31.104  INFO 20524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@103e7c7c, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c3710b3, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b8ee69d, org.springframework.security.web.header.HeaderWriterFilter@ad5cffa, org.springframework.web.filter.CorsFilter@3e39f08c, org.springframework.security.web.authentication.logout.LogoutFilter@79445efb, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@2375a976, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b400bd0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@fceab5d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8b1202a, org.springframework.security.web.session.SessionManagementFilter@237aa0c7, org.springframework.security.web.access.ExceptionTranslationFilter@6ffbf0ac, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@160546b1]
+2019-05-07 12:07:31.139 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for ExactUrl [processUrl='/login?error']
+2019-05-07 12:07:31.141 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for ExactUrl [processUrl='/login']
+2019-05-07 12:07:31.141 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for ExactUrl [processUrl='/login']
+2019-05-07 12:07:31.141 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for OrRequestMatcher [requestMatchers=[Ant [pattern='/logout', GET], Ant [pattern='/logout', POST], Ant [pattern='/logout', PUT], Ant [pattern='/logout', DELETE]]]
+2019-05-07 12:07:31.142 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for ExactUrl [processUrl='/login?logout']
+2019-05-07 12:07:31.142 DEBUG 20524 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'authenticated', for any request
+2019-05-07 12:07:31.144 DEBUG 20524 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-05-07 12:07:31.144 DEBUG 20524 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-05-07 12:07:31.176  INFO 20524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ec6a1b6, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e61a863, org.springframework.security.web.header.HeaderWriterFilter@7b9c2387, org.springframework.security.web.authentication.logout.LogoutFilter@69c1ea07, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7482309c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2aa07d80, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@40013051, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@35f01759, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2fea9a7b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71f29d91, org.springframework.security.web.session.SessionManagementFilter@12e2f5ab, org.springframework.security.web.access.ExceptionTranslationFilter@270b8c2a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f2becb2]
+2019-05-07 12:07:32.223 DEBUG 20524 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-05-07 12:07:33.062 DEBUG 20524 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2019-05-07 12:07:33.731 DEBUG 20524 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-05-07 12:07:33.812 DEBUG 20524 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-05-07 12:07:35.327  INFO 20524 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-05-07 12:07:36.360  INFO 20524 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-05-07 12:07:36.458  INFO 20524 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-05-07 12:07:36.669  INFO 20524 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-05-07 12:07:37.203  INFO 20524 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getArticleUsingGET_1
+2019-05-07 12:07:37.425  INFO 20524 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadPictureUsingPOST_1
+2019-05-07 12:07:37.579  INFO 20524 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertEntityUsingPOST_1
+2019-05-07 12:07:37.671  INFO 20524 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertEntityUsingPOST_2
+2019-05-07 12:07:37.898  INFO 20524 --- [main] c.interest.WhSpringBootApplicationTests  : Started WhSpringBootApplicationTests in 31.64 seconds (JVM running for 33.888)
+2019-05-07 12:07:38.591  INFO 20524 --- [main] com.zaxxer.hikari.HikariDataSource       : DatebookHikariCP - Starting...
+2019-05-07 12:07:38.874  INFO 20524 --- [main] com.zaxxer.hikari.HikariDataSource       : DatebookHikariCP - Start completed.
+2019-05-07 12:07:38.891 DEBUG 20524 --- [main] com.interest.dao.UserDao.getALl          : ==>  Preparing: select * from sys_user 
+2019-05-07 12:07:38.934 DEBUG 20524 --- [main] com.interest.dao.UserDao.getALl          : ==> Parameters: 
+2019-05-07 12:07:38.969 DEBUG 20524 --- [main] com.interest.dao.UserDao.getALl          : <==      Total: 3
+2019-05-07 12:07:38.973 DEBUG 20524 --- [main] c.i.dao.UserGithubDao.insertEntity       : ==>  Preparing: insert into user_github (login,avatar_url,html_url,email,userid) values (?,?,?,?,?) 
+2019-05-07 12:07:38.977 DEBUG 20524 --- [main] c.i.dao.UserGithubDao.insertEntity       : ==> Parameters: 管理员(String), http://thirdqq.qlogo.cn/qqapp/101512648/1C47A2C639D3A89E573AC2BF46FBEF63/40(String), http://www.lovemtt.com(String), 123456@qq.com(String), 1(Integer)
+2019-05-07 12:07:38.990 DEBUG 20524 --- [main] c.i.dao.UserGithubDao.insertEntity       : <==    Updates: 1
+2019-05-07 12:07:38.991 DEBUG 20524 --- [main] c.i.dao.UserGithubDao.insertEntity       : ==>  Preparing: insert into user_github (login,avatar_url,html_url,email,userid) values (?,?,?,?,?) 
+2019-05-07 12:07:38.997 DEBUG 20524 --- [main] c.i.dao.UserGithubDao.insertEntity       : ==> Parameters: smallsnail-wh(String), https://avatars2.githubusercontent.com/u/30545965?v=4(String), https://github.com/smallsnail-wh(String), null(String), 12(Integer)
+2019-05-07 12:07:40.846 DEBUG 20524 --- [main] com.interest.dao.UserDao.getALl          : ==>  Preparing: select * from sys_user 
+2019-05-07 12:07:40.848 DEBUG 20524 --- [main] com.interest.dao.UserDao.getALl          : ==> Parameters: 
+2019-05-07 12:07:40.850 DEBUG 20524 --- [main] com.interest.dao.UserDao.getALl          : <==      Total: 3
+2019-05-07 12:07:40.851 DEBUG 20524 --- [main] com.interest.dao.UserDetailDao.insert    : ==>  Preparing: insert into sys_user_detail(userid) values (?) 
+2019-05-07 12:07:40.852 DEBUG 20524 --- [main] com.interest.dao.UserDetailDao.insert    : ==> Parameters: 1(Integer)
+2019-05-07 12:07:40.863 DEBUG 20524 --- [main] com.interest.dao.UserDetailDao.insert    : <==    Updates: 1
+2019-05-07 12:07:40.864 DEBUG 20524 --- [main] com.interest.dao.UserDetailDao.insert    : ==>  Preparing: insert into sys_user_detail(userid) values (?) 
+2019-05-07 12:07:40.864 DEBUG 20524 --- [main] com.interest.dao.UserDetailDao.insert    : ==> Parameters: 12(Integer)
+2019-05-07 12:07:40.870 DEBUG 20524 --- [main] com.interest.dao.UserDetailDao.insert    : <==    Updates: 1
+2019-05-07 12:07:40.871 DEBUG 20524 --- [main] com.interest.dao.UserDetailDao.insert    : ==>  Preparing: insert into sys_user_detail(userid) values (?) 
+2019-05-07 12:07:40.872 DEBUG 20524 --- [main] com.interest.dao.UserDetailDao.insert    : ==> Parameters: 13(Integer)
+2019-05-07 12:07:40.877 DEBUG 20524 --- [main] com.interest.dao.UserDetailDao.insert    : <==    Updates: 1
+2019-05-07 12:07:40.919 DEBUG 20524 --- [Thread-7] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@a5b0b86, started on Tue May 07 12:07:10 CST 2019, parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2eea88a1
+2019-05-07 12:07:40.928  INFO 20524 --- [Thread-7] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-05-07 12:07:40.940  INFO 20524 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'threadPoolTaskExecutor'
+2019-05-07 12:07:41.000  INFO 20524 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : DatebookHikariCP - Shutdown initiated...
+2019-05-07 12:07:41.012  INFO 20524 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : DatebookHikariCP - Shutdown completed.
+2019-05-07 12:12:00.151  INFO 17848 --- [main] c.interest.WhSpringBootApplicationTests  : No active profile set, falling back to default profiles: default
+2019-05-07 12:12:00.159 DEBUG 17848 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@a5b0b86
+2019-05-07 12:12:02.706  INFO 17848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-07 12:12:02.716  INFO 17848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-07 12:12:02.857  INFO 17848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107ms. Found 0 repository interfaces.
+2019-05-07 12:12:04.298  INFO 17848 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3c09169c-0b69-32ad-815b-4f2cb157c267
+2019-05-07 12:12:05.161  INFO 17848 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$784fea1b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-07 12:12:05.474  INFO 17848 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9469ed18] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-07 12:12:07.480  INFO 17848 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'threadPoolTaskExecutor'
+2019-05-07 12:12:08.851  WARN 17848 --- [main] o.s.s.o.p.t.s.JwtAccessTokenConverter    : Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2019-05-07 12:12:09.929 DEBUG 17848 --- [main] .s.o.p.e.FrameworkEndpointHandlerMapping : 8 mappings in 'oauth2EndpointHandlerMapping'
+2019-05-07 12:12:10.089 DEBUG 17848 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 69 mappings in 'requestMappingHandlerMapping'
+2019-05-07 12:12:13.273  INFO 17848 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-05-07 12:12:13.917  INFO 17848 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-07 12:12:14.702 DEBUG 17848 --- [main] s.c.a.w.c.WebSecurityConfigurerAdapter$3 : No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2019-05-07 12:12:14.881 DEBUG 17848 --- [main] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {websecurityConfig=com.interest.security.WebsecurityConfig$$EnhancerBySpringCGLIB$$dd1055f@f95d64d}
+2019-05-07 12:12:15.176 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'fullyAuthenticated', for Ant [pattern='/oauth/token']
+2019-05-07 12:12:15.178 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'denyAll()', for Ant [pattern='/oauth/token_key']
+2019-05-07 12:12:15.183 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'denyAll()', for Ant [pattern='/oauth/check_token']
+2019-05-07 12:12:15.226 DEBUG 17848 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-05-07 12:12:15.229 DEBUG 17848 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-05-07 12:12:15.260  INFO 17848 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2295566b, org.springframework.security.web.context.SecurityContextPersistenceFilter@1c53bd49, org.springframework.security.web.header.HeaderWriterFilter@422ba9b7, org.springframework.security.web.authentication.logout.LogoutFilter@2b9ecd05, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5d3634c8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d6d683e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@507f47f9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@174e1b99, org.springframework.security.web.session.SessionManagementFilter@707f4647, org.springframework.security.web.access.ExceptionTranslationFilter@3d3b272a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@280d6a20]
+2019-05-07 12:12:15.291 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/public/**']
+2019-05-07 12:12:15.292 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/authentication/github']
+2019-05-07 12:12:15.292 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/authentication/qq']
+2019-05-07 12:12:15.294 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/register']
+2019-05-07 12:12:15.294 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.jpg']
+2019-05-07 12:12:15.295 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.png']
+2019-05-07 12:12:15.296 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.jpeg']
+2019-05-07 12:12:15.297 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/interest/**']
+2019-05-07 12:12:15.297 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasRole('ROLE_ADMIN')', for Ant [pattern='/users/**']
+2019-05-07 12:12:15.301 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasRole('ROLE_ADMIN')', for Ant [pattern='/menus/**']
+2019-05-07 12:12:15.302 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasRole('ROLE_ADMIN')', for Ant [pattern='/roles/**']
+2019-05-07 12:12:15.302 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasRole('ROLE_ADMIN')', for Ant [pattern='/admin/**']
+2019-05-07 12:12:15.303 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.html']
+2019-05-07 12:12:15.304 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.css']
+2019-05-07 12:12:15.304 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.js']
+2019-05-07 12:12:15.304 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/swagger-resources/**']
+2019-05-07 12:12:15.305 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/*.woff2']
+2019-05-07 12:12:15.305 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**/v2/**']
+2019-05-07 12:12:15.305 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'authenticated', for any request
+2019-05-07 12:12:15.306 DEBUG 17848 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-05-07 12:12:15.307 DEBUG 17848 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-05-07 12:12:15.308  INFO 17848 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@7d5ef1c3, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@33eab2e8, org.springframework.security.web.context.SecurityContextPersistenceFilter@3a751535, org.springframework.security.web.header.HeaderWriterFilter@546083d6, org.springframework.web.filter.CorsFilter@581918f6, org.springframework.security.web.authentication.logout.LogoutFilter@5896b9f5, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@3e2772a9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7fb82f73, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f166d61, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34bf66af, org.springframework.security.web.session.SessionManagementFilter@7ac1b6c0, org.springframework.security.web.access.ExceptionTranslationFilter@6f655dbd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7eefaca0]
+2019-05-07 12:12:15.333 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for ExactUrl [processUrl='/login?error']
+2019-05-07 12:12:15.334 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for ExactUrl [processUrl='/login']
+2019-05-07 12:12:15.335 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for ExactUrl [processUrl='/login']
+2019-05-07 12:12:15.336 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for OrRequestMatcher [requestMatchers=[Ant [pattern='/logout', GET], Ant [pattern='/logout', POST], Ant [pattern='/logout', PUT], Ant [pattern='/logout', DELETE]]]
+2019-05-07 12:12:15.337 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for ExactUrl [processUrl='/login?logout']
+2019-05-07 12:12:15.338 DEBUG 17848 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'authenticated', for any request
+2019-05-07 12:12:15.340 DEBUG 17848 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-05-07 12:12:15.341 DEBUG 17848 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-05-07 12:12:15.363  INFO 17848 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47eae91d, org.springframework.security.web.context.SecurityContextPersistenceFilter@57839834, org.springframework.security.web.header.HeaderWriterFilter@8b1202a, org.springframework.security.web.authentication.logout.LogoutFilter@23708f14, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5cbe72b9, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@68f9e807, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@c1a74d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3355b8ff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32646ecf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@472719df, org.springframework.security.web.session.SessionManagementFilter@34bddf43, org.springframework.security.web.access.ExceptionTranslationFilter@5c3710b3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69c1ea07]
+2019-05-07 12:12:16.368 DEBUG 17848 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-05-07 12:12:16.903 DEBUG 17848 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2019-05-07 12:12:17.424 DEBUG 17848 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-05-07 12:12:17.467 DEBUG 17848 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-05-07 12:12:19.069  INFO 17848 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-05-07 12:12:20.839  INFO 17848 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-05-07 12:12:20.934  INFO 17848 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-05-07 12:12:21.091  INFO 17848 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-05-07 12:12:21.452  INFO 17848 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getArticleUsingGET_1
+2019-05-07 12:12:21.705  INFO 17848 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadPictureUsingPOST_1
+2019-05-07 12:12:21.876  INFO 17848 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertEntityUsingPOST_1
+2019-05-07 12:12:21.942  INFO 17848 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertEntityUsingPOST_2
+2019-05-07 12:12:22.237  INFO 17848 --- [main] c.interest.WhSpringBootApplicationTests  : Started WhSpringBootApplicationTests in 25.166 seconds (JVM running for 27.297)
+2019-05-07 12:12:22.742  INFO 17848 --- [main] com.zaxxer.hikari.HikariDataSource       : DatebookHikariCP - Starting...
+2019-05-07 12:12:23.137  INFO 17848 --- [main] com.zaxxer.hikari.HikariDataSource       : DatebookHikariCP - Start completed.
+2019-05-07 12:12:23.151 DEBUG 17848 --- [main] com.interest.dao.UserDao.getALl          : ==>  Preparing: select * from sys_user 
+2019-05-07 12:12:23.194 DEBUG 17848 --- [main] com.interest.dao.UserDao.getALl          : ==> Parameters: 
+2019-05-07 12:12:23.236 DEBUG 17848 --- [main] com.interest.dao.UserDao.getALl          : <==      Total: 3
+2019-05-07 12:12:23.240 DEBUG 17848 --- [main] c.i.dao.UserGithubDao.insertEntity       : ==>  Preparing: insert into user_github (login,avatar_url,html_url,email,userid) values (?,?,?,?,?) 
+2019-05-07 12:12:23.243 DEBUG 17848 --- [main] c.i.dao.UserGithubDao.insertEntity       : ==> Parameters: 管理员(String), http://thirdqq.qlogo.cn/qqapp/101512648/1C47A2C639D3A89E573AC2BF46FBEF63/40(String), http://www.lovemtt.com(String), 123456@qq.com(String), 1(Integer)
+2019-05-07 12:12:25.204 DEBUG 17848 --- [main] com.interest.dao.UserDao.getALl          : ==>  Preparing: select * from sys_user 
+2019-05-07 12:12:25.205 DEBUG 17848 --- [main] com.interest.dao.UserDao.getALl          : ==> Parameters: 
+2019-05-07 12:12:25.208 DEBUG 17848 --- [main] com.interest.dao.UserDao.getALl          : <==      Total: 3
+2019-05-07 12:12:25.219 DEBUG 17848 --- [main] com.interest.dao.UserDetailDao.insert    : ==>  Preparing: insert into sys_user_detail(userid) values (?) 
+2019-05-07 12:12:25.222 DEBUG 17848 --- [main] com.interest.dao.UserDetailDao.insert    : ==> Parameters: 1(Integer)
+2019-05-07 12:12:25.228 DEBUG 17848 --- [main] com.interest.dao.UserDetailDao.insert    : <==    Updates: 1
+2019-05-07 12:12:25.229 DEBUG 17848 --- [main] com.interest.dao.UserDetailDao.insert    : ==>  Preparing: insert into sys_user_detail(userid) values (?) 
+2019-05-07 12:12:25.230 DEBUG 17848 --- [main] com.interest.dao.UserDetailDao.insert    : ==> Parameters: 12(Integer)
+2019-05-07 12:12:25.245 DEBUG 17848 --- [main] com.interest.dao.UserDetailDao.insert    : <==    Updates: 1
+2019-05-07 12:12:25.246 DEBUG 17848 --- [main] com.interest.dao.UserDetailDao.insert    : ==>  Preparing: insert into sys_user_detail(userid) values (?) 
+2019-05-07 12:12:25.246 DEBUG 17848 --- [main] com.interest.dao.UserDetailDao.insert    : ==> Parameters: 13(Integer)
+2019-05-07 12:12:25.253 DEBUG 17848 --- [main] com.interest.dao.UserDetailDao.insert    : <==    Updates: 1
+2019-05-07 12:12:25.304 DEBUG 17848 --- [Thread-7] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@a5b0b86, started on Tue May 07 12:12:00 CST 2019, parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2eea88a1
+2019-05-07 12:12:25.314  INFO 17848 --- [Thread-7] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-05-07 12:12:25.334  INFO 17848 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'threadPoolTaskExecutor'
+2019-05-07 12:12:25.372  INFO 17848 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : DatebookHikariCP - Shutdown initiated...
+2019-05-07 12:12:25.383  INFO 17848 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : DatebookHikariCP - Shutdown completed.
